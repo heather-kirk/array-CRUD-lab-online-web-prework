@@ -1,21 +1,21 @@
 def create_an_empty_array
-  
+[]
 end
 
 def create_an_array
-  
+  ["Vivi", "Piccolo", "Nanook", "Westley"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  add_element_to_end_of_array("Puppy")
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  pets.unshift ("Kitty")
 end
 
 def remove_element_from_end_of_array(array)
-  
+  pets.pop ("Puppy")
 end
 
 def remove_element_from_start_of_array(array)
