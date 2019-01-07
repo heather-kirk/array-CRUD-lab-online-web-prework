@@ -6,8 +6,9 @@ def create_an_array
   ["Vivi", "Piccolo", "Nanook", "Westley"]
 end
 
-def add_element_to_end_of_array(array, element = "arrays!")
-  element.push("arrays!")
+def add_element_to_end_of_array(array, element)
+  array = ["Vivi", "Piccolo", "Nanook", "Westley" ]
+  array.push[]
 end
 
 def add_element_to_start_of_array(array, unshift)
